@@ -1481,6 +1481,7 @@ html {
 }
 .content {
   width: 1020px;
+      z-index: 222;
 }
 .content__form {
   background: #0C202E;
@@ -1662,4 +1663,7 @@ html {
     width: 90%;
   }
 }
-
+.form-login.reverse-form{
+	    transition: 1s all;
+    transform: rotate(180deg);
+}
